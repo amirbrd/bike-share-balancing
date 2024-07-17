@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project analyzes Toronto's Bike Share ridership data for July 2023. The analysis involves clustering bike stations based on their usage patterns, calculating differences between start and end counts, and visualizing the results using interactive maps. The goal is to understand bike usage patterns and identify stations that are over- or under-utilized, providing insights for potential improvements in bike distribution and station management.
+This project analyzes Toronto's Bike Share ridership data. The analysis involves clustering bike stations based on their usage patterns, calculating differences between start and end counts, and visualizing the results using interactive maps. The goal is to understand bike usage patterns and identify stations that are over- or under-utilized, providing insights for potential improvements in bike distribution and station management, mainly through user incentives and pricing mechanisms.
+
+My next step is to further refinment by time of day, weather, etc. and to develop the actual mechanism. 
 
 ## Data Sources
 
@@ -42,8 +44,8 @@ This project analyzes Toronto's Bike Share ridership data for July 2023. The ana
 ### Key Findings
 
 - **Balanced Stations**: A majority of stations fell into Cluster 0, indicating balanced usage.
-- **Over-Utilized Stations**: Stations in Cluster 2 were identified as over-utilized drop-off points, which may require additional bikes to meet demand.
-- **Under-Utilized Stations**: Stations in Cluster 3 had significant discrepancies, indicating potential inefficiencies in bike distribution.
+- **Over-Utilized Stations**: Stations in Cluster 2 were identified as over-utilized drop-off points.
+- **Under-Utilized Stations**: Stations in Cluster 3 had significant discrepancies.
 
 ### Interactive Map
 
@@ -52,8 +54,4 @@ This project analyzes Toronto's Bike Share ridership data for July 2023. The ana
 
 ## Conclusion
 
-The Toronto Bike Share Analysis project provides valuable insights into bike usage patterns and station utilization. By identifying over- and under-utilized stations, the analysis supports informed decision-making for optimizing bike distribution and improving the overall efficiency of the bike share system.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+The Toronto Bike Share Analysis project provides valuable insights into bike usage patterns and station utilization. By identifying over- and under-utilized stations, the analysis supports informed decision-making for implementing incentives for users to optimize bike distribution and improving the overall efficiency of the bike share system.
